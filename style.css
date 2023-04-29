@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.quiz-app-body{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: 20px auto;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2), -10px -10px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+h1{
+    text-align: center;
+    font-size: 42px;
+    font-weight: normal;
+    line-height: 56px;
+    padding: 20px 0;
+}
+.quiz-questions{
+    padding: 20px;
+}
+.question{
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 32px;
+    margin-bottom: 10px;
+}
+.select-answer{
+    padding: 5px 0;
+}
+.select-answer input{
+    margin-right: 10px;
+}
+.btn{
+    width: 100%;
+    height: 35px;
+    font-size: 20px;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: blueviolet;
+    cursor: pointer;
+}
